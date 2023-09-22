@@ -47,13 +47,13 @@ public class calculadoraJoption {
                 int mul1 = Integer.parseInt(JOptionPane.showInputDialog("Introduce un número"));
                 int mul2 = Integer.parseInt(JOptionPane.showInputDialog("Introduce un número"));
                 int resulmul = mul1 * mul2;
-                JOptionPane.showMessageDialog(null, "El resultado es: " + resulmul);                
+                JOptionPane.showMessageDialog(null, "El resultado es: " + resulmul);
                 break;
             case "division", "divi", "4":
                 double div1 = Double.parseDouble(JOptionPane.showInputDialog("Introduce un número"));
                 double div2 = Double.parseDouble(JOptionPane.showInputDialog("Introduce un número"));
                 double resuldiv = div1 / div2;
-                JOptionPane.showMessageDialog(null, "El resultado es: " +  resuldiv);
+                JOptionPane.showMessageDialog(null, "El resultado es: " + resuldiv);
                 break;
             default:
                 throw new AssertionError();
